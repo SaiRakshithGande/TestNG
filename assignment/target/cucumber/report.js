@@ -149,7 +149,7 @@ formatter.match({
   "location": "LoginUIsteps.i_am_on_the_myaccount_page()"
 });
 formatter.result({
-  "duration": 27387107250,
+  "duration": 10901949016,
   "status": "passed"
 });
 formatter.match({
@@ -162,7 +162,7 @@ formatter.match({
   "location": "LoginUIsteps.i_fillup(String)"
 });
 formatter.result({
-  "duration": 15546012668,
+  "duration": 2833847370,
   "status": "passed"
 });
 formatter.match({
@@ -175,35 +175,35 @@ formatter.match({
   "location": "LoginUIsteps.i_fill(String)"
 });
 formatter.result({
-  "duration": 506683903,
+  "duration": 255741196,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUIsteps.i_press_loginbutton()"
 });
 formatter.result({
-  "duration": 2277560452,
+  "duration": 2732335720,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUIsteps.click_on_dashboard()"
 });
 formatter.result({
-  "duration": 3112391299,
+  "duration": 2377543107,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUIsteps.click_on_testcases()"
 });
 formatter.result({
-  "duration": 30679203441,
+  "duration": 2188367399,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUIsteps.click_on_second_testcase()"
 });
 formatter.result({
-  "duration": 137261913,
+  "duration": 891174972,
   "status": "passed"
 });
 });

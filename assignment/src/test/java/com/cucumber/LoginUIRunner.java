@@ -1,6 +1,9 @@
 package com.cucumber;
 
+import org.junit.AfterClass;
 import org.junit.runner.RunWith;
+
+import com.cucumber.listener.Reporter;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -14,5 +17,14 @@ monochrome = true
 )
 
 public class LoginUIRunner {
+	@AfterClass
+	  public static void extendReport()
+	{
+		Reporter.loadXMLConfig("src\\test\\resources\\TestData\\extent-config.xml");
+	    Reporter.setSystemInfo("user", System.getProperty("user.name"));
+	    Reporter.setSystemInfo("os", "Windows");
+	    Reporter.setTestRunnerOutput("Sample test runner output message");
+	}
+
 
 }

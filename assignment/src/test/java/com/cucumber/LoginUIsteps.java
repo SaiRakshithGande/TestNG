@@ -1,15 +1,18 @@
 package com.cucumber;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.cts.practice.MyAccount;
 import com.cts.practice.TestCases;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -26,6 +29,13 @@ public class LoginUIsteps {
 		driver = new ChromeDriver();
 		driver.get("http://practice.automationtesting.in/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		File filepic=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		try {
+		FileUtils.copyFile(filepic,new File("./pic.png"));
+
+		}catch (IOException e) {
+		System.out.println("IO Excp...."+e.getMessage());
+		}
 		MyAccount = new MyAccount(driver);
 		TestCases = new TestCases(driver);
 		MyAccount.account();
