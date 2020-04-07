@@ -1,0 +1,456 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Login with Valid details",
+        "description": "",
+        "id": "opencart-website;login-with-valid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8907515732,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a user launch the browser",
+            "match": {
+              "location": "Login_Sd.a_user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1964843219,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user opens opencart login page",
+            "match": {
+              "location": "Login_Sd.the_user_opens_opencart_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4122343660,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user login using rakshith1998@gmail.com and rakshith3788",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rakshith1998@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "rakshith3788",
+                  "offset": 48
+                }
+              ],
+              "location": "Login_Sd.the_user_login_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209958713,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user close the login page",
+            "match": {
+              "location": "Login_Sd.the_user_close_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Testcase_Feature"
+          },
+          {
+            "line": 5,
+            "name": "@tc01_login"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Search the Product",
+        "description": "",
+        "id": "opencart-website;search-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6815616049,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user launch the browser",
+            "match": {
+              "location": "Search_Sd.the_user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3218130995,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user opens the open cart search \u003cname\u003e page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cname\u003e",
+                  "offset": 36
+                }
+              ],
+              "location": "Search_Sd.the_user_opens_the_open_cart_search_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6274671509,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user search the product",
+            "match": {
+              "location": "Search_Sd.the_user_search_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 205823105,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user close the browesr",
+            "match": {
+              "location": "Search_Sd.the_user_close_the_browesr()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@tc02_Search"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Add to Cart",
+        "description": "",
+        "id": "opencart-website;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6826638593,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user launches the browser in chrome",
+            "match": {
+              "location": "Addtocart_Sd.the_user_launches_the_browser_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263020456,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user opens the cart and search  page called \u003cname\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cname\u003e",
+                  "offset": 48
+                }
+              ],
+              "location": "Addtocart_Sd.the_user_opens_the_cart_and_search_page_called(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5005197221,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user searches the product and choose",
+            "match": {
+              "location": "Addtocart_Sd.the_user_searches_the_product_and_choose()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3582023936,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user add the product into cart",
+            "match": {
+              "location": "Addtocart_Sd.the_user_add_the_product_into_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189612372,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user closees the browser and quit",
+            "match": {
+              "location": "Addtocart_Sd.the_user_closees_the_browser_and_quit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@tc03_AddToCart"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Compare the products",
+        "description": "",
+        "id": "opencart-website;compare-the-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7058991337,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user launched the browser in chrome",
+            "match": {
+              "location": "Compare_sd.the_user_launched_the_browser_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6361766020,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user compared the two products",
+            "match": {
+              "location": "Compare_sd.the_user_compared_the_two_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6588960954,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user will see product comparison",
+            "match": {
+              "location": "Compare_sd.the_user_will_see_product_comparison()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2316975497,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user closed the browser after comparsion",
+            "match": {
+              "location": "Compare_sd.the_user_closed_the_browser_after_comparsion()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@tc04_Comparison"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Select the brand and add to wishlist",
+        "description": "",
+        "id": "opencart-website;select-the-brand-and-add-to-wishlist",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9742818003,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user launching the chrome browser",
+            "match": {
+              "location": "Brands_Sd.the_user_launching_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4797731204,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user clicks on brands",
+            "match": {
+              "location": "Brands_Sd.the_user_clicks_on_brands()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7791549548,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user selects the brand",
+            "match": {
+              "location": "Brands_Sd.the_user_selects_the_brand()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3625760648,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user add the product to wishlist",
+            "match": {
+              "location": "Brands_Sd.the_user_add_the_product_to_wishlist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2313713480,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user quits the chrome",
+            "match": {
+              "location": "Brands_Sd.the_user_quits_the_chrome()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 37,
+            "name": "@tc05_Brands"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Special offers in opencart website",
+        "description": "",
+        "id": "opencart-website;special-offers-in-opencart-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6491125108,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user to open browser chrome",
+            "match": {
+              "location": "Specials_Sd.the_user_to_open_browser_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6056285990,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user clicks on the specials",
+            "match": {
+              "location": "Specials_Sd.the_user_clicks_on_the_specials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3100213595,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the user will see the specials and add to the cart",
+            "match": {
+              "location": "Specials_Sd.the_user_will_see_the_specials_and_add_to_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249251514,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user close the site and browser",
+            "match": {
+              "location": "Specials_Sd.the_user_close_the_site_and_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@tc06_Special"
+          }
+        ]
+      }
+    ],
+    "name": "Opencart website",
+    "description": "",
+    "id": "opencart-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/Opencart.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Testcase_Feature"
+      }
+    ]
+  }
+]
