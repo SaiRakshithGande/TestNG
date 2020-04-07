@@ -23,10 +23,10 @@ public class Opencart_AddTocartpage extends BasePage{
     	searchpages.click();
     }
 	
-	public void opencart_searching(String names) {
+	public void opencart_searching(String name) {
 		
 		 
-		 searchpages.sendKeys(names);
+		 searchpages.sendKeys(name);
 	}
 
 	public void buttonpress() throws InterruptedException {

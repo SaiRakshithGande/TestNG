@@ -3,14 +3,11 @@ Feature: Opencart website
 
 
 @tc01_login
-Scenario Outline: Login with Valid details
+Scenario: Login with Valid details
  Given a user launch the browser
  When the user opens opencart login page
- Then the user login using <username> and <password>
+ Then the user login using username and password
  Then the user close the login page
- Examples:
- |username              |password|
- |rakshith1998@gmail.com|rakshith3788|
  
  
  @tc02_Search
@@ -23,7 +20,7 @@ Scenario Outline: Login with Valid details
  @tc03_AddToCart
  Scenario Outline: Add to Cart
  Given the user launches the browser in chrome
- When the user opens the cart and search  product called <name>
+ When the user opens the cart and search  product called "<name>"
  Then the user searches the product and choose
  Then the user add the product into cart
  Then the user closees the browser and quit

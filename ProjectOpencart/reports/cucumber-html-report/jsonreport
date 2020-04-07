@@ -3,16 +3,16 @@
     "line": 2,
     "elements": [
       {
-        "line": 13,
+        "line": 6,
         "name": "Login with Valid details",
         "description": "",
-        "id": "opencart-website;login-with-valid-details;;2",
+        "id": "opencart-website;login-with-valid-details",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8907515732,
+              "duration": 8218340013,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1964843219,
+              "duration": 1854839570,
               "status": "passed"
             },
             "line": 8,
@@ -36,33 +36,19 @@
           },
           {
             "result": {
-              "duration": 4122343660,
+              "duration": 16347205014,
               "status": "passed"
             },
             "line": 9,
-            "name": "the user login using rakshith1998@gmail.com and rakshith3788",
+            "name": "the user login using username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "rakshith1998@gmail.com",
-                  "offset": 21
-                },
-                {
-                  "val": "rakshith3788",
-                  "offset": 48
-                }
-              ],
-              "location": "Login_Sd.the_user_login_using_and(String,String)"
+              "location": "Login_Sd.the_user_login_using_username_and_password()"
             },
-            "matchedColumns": [
-              0,
-              1
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 209958713,
+              "duration": 2091754663,
               "status": "passed"
             },
             "line": 10,
@@ -75,17 +61,13 @@
         ],
         "tags": [
           {
-            "line": 1,
-            "name": "@Testcase_Feature"
-          },
-          {
             "line": 5,
             "name": "@tc01_login"
           }
         ]
       },
       {
-        "line": 17,
+        "line": 14,
         "name": "Search the Product",
         "description": "",
         "id": "opencart-website;search-the-product",
@@ -94,10 +76,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6815616049,
+              "duration": 6223109917,
               "status": "passed"
             },
-            "line": 18,
+            "line": 15,
             "name": "the user launch the browser",
             "match": {
               "location": "Search_Sd.the_user_launch_the_browser()"
@@ -106,10 +88,10 @@
           },
           {
             "result": {
-              "duration": 3218130995,
+              "duration": 3214377614,
               "status": "passed"
             },
-            "line": 19,
+            "line": 16,
             "name": "the user opens the open cart search \u003cname\u003e page",
             "match": {
               "arguments": [
@@ -124,10 +106,10 @@
           },
           {
             "result": {
-              "duration": 6274671509,
+              "duration": 5129441381,
               "status": "passed"
             },
-            "line": 20,
+            "line": 17,
             "name": "the user search the product",
             "match": {
               "location": "Search_Sd.the_user_search_the_product()"
@@ -136,10 +118,10 @@
           },
           {
             "result": {
-              "duration": 205823105,
+              "duration": 2325475040,
               "status": "passed"
             },
-            "line": 21,
+            "line": 18,
             "name": "the user close the browesr",
             "match": {
               "location": "Search_Sd.the_user_close_the_browesr()"
@@ -149,25 +131,25 @@
         ],
         "tags": [
           {
-            "line": 16,
+            "line": 13,
             "name": "@tc02_Search"
           }
         ]
       },
       {
-        "line": 24,
+        "line": 29,
         "name": "Add to Cart",
         "description": "",
-        "id": "opencart-website;add-to-cart",
+        "id": "opencart-website;add-to-cart;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 6826638593,
+              "duration": 7947123812,
               "status": "passed"
             },
-            "line": 25,
+            "line": 22,
             "name": "the user launches the browser in chrome",
             "match": {
               "location": "Addtocart_Sd.the_user_launches_the_browser_in_chrome()"
@@ -176,28 +158,31 @@
           },
           {
             "result": {
-              "duration": 263020456,
+              "duration": 251799542,
               "status": "passed"
             },
-            "line": 26,
-            "name": "the user opens the cart and search  page called \u003cname\u003e",
+            "line": 23,
+            "name": "the user opens the cart and search  product called \"IMAC\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\u003cname\u003e",
-                  "offset": 48
+                  "val": "IMAC",
+                  "offset": 52
                 }
               ],
-              "location": "Addtocart_Sd.the_user_opens_the_cart_and_search_page_called(String)"
+              "location": "Addtocart_Sd.the_user_opens_the_cart_and_search_product_called_something(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5005197221,
+              "duration": 4819907074,
               "status": "passed"
             },
-            "line": 27,
+            "line": 24,
             "name": "the user searches the product and choose",
             "match": {
               "location": "Addtocart_Sd.the_user_searches_the_product_and_choose()"
@@ -206,10 +191,10 @@
           },
           {
             "result": {
-              "duration": 3582023936,
+              "duration": 3417714946,
               "status": "passed"
             },
-            "line": 28,
+            "line": 25,
             "name": "the user add the product into cart",
             "match": {
               "location": "Addtocart_Sd.the_user_add_the_product_into_cart()"
@@ -218,10 +203,10 @@
           },
           {
             "result": {
-              "duration": 189612372,
+              "duration": 211429214,
               "status": "passed"
             },
-            "line": 29,
+            "line": 26,
             "name": "the user closees the browser and quit",
             "match": {
               "location": "Addtocart_Sd.the_user_closees_the_browser_and_quit()"
@@ -231,7 +216,11 @@
         ],
         "tags": [
           {
-            "line": 23,
+            "line": 1,
+            "name": "@Testcase_Feature"
+          },
+          {
+            "line": 20,
             "name": "@tc03_AddToCart"
           }
         ]
@@ -246,7 +235,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7058991337,
+              "duration": 7037273318,
               "status": "passed"
             },
             "line": 33,
@@ -258,7 +247,7 @@
           },
           {
             "result": {
-              "duration": 6361766020,
+              "duration": 6253308636,
               "status": "passed"
             },
             "line": 34,
@@ -270,7 +259,7 @@
           },
           {
             "result": {
-              "duration": 6588960954,
+              "duration": 5967263819,
               "status": "passed"
             },
             "line": 35,
@@ -282,7 +271,7 @@
           },
           {
             "result": {
-              "duration": 2316975497,
+              "duration": 192284734,
               "status": "passed"
             },
             "line": 36,
@@ -310,7 +299,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9742818003,
+              "duration": 8829131597,
               "status": "passed"
             },
             "line": 39,
@@ -322,7 +311,7 @@
           },
           {
             "result": {
-              "duration": 4797731204,
+              "duration": 4734552514,
               "status": "passed"
             },
             "line": 40,
@@ -334,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 7791549548,
+              "duration": 7084174707,
               "status": "passed"
             },
             "line": 41,
@@ -346,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 3625760648,
+              "duration": 3593498168,
               "status": "passed"
             },
             "line": 42,
@@ -358,7 +347,7 @@
           },
           {
             "result": {
-              "duration": 2313713480,
+              "duration": 2059815723,
               "status": "passed"
             },
             "line": 43,
@@ -386,7 +375,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6491125108,
+              "duration": 10077480666,
               "status": "passed"
             },
             "line": 46,
@@ -398,7 +387,7 @@
           },
           {
             "result": {
-              "duration": 6056285990,
+              "duration": 4809296612,
               "status": "passed"
             },
             "line": 47,
@@ -410,7 +399,7 @@
           },
           {
             "result": {
-              "duration": 3100213595,
+              "duration": 10297930373,
               "status": "passed"
             },
             "line": 48,
@@ -422,7 +411,7 @@
           },
           {
             "result": {
-              "duration": 249251514,
+              "duration": 2326007903,
               "status": "passed"
             },
             "line": 49,

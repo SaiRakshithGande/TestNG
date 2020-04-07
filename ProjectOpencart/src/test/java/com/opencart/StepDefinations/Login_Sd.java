@@ -20,7 +20,7 @@ import cucumber.api.java.en.When;
 public class Login_Sd extends BasePage {
 	Opencart_LoginPage login;
 	final static Logger logger = LogManager.getLogger(Addtocart_Sd.class.getName());
-	//ExcelCode data = new ExcelCode();
+	ExcelCode data = new ExcelCode();
 	 @Given("^a user launch the browser$")
 	    public void a_user_launch_the_browser() throws Throwable {
 		 Browserlaunch();
@@ -34,14 +34,16 @@ public class Login_Sd extends BasePage {
 	      logger.debug("Login page opened ");
 	    }
 
-	    @Then("^the user login using (.+) and (.+)$")
-	    public void the_user_login_using_and(String username, String password) throws Throwable {
+
+	    @Then("^the user login using username and password$")
+	    public void the_user_login_using_username_and_password() throws Throwable {
 	    	login=new Opencart_LoginPage(driver);
-	    	//ExcelCode data = new ExcelCode();
-	    	login.username("rakshith1998@gmail.com");
-	    	login.password("rakshith3788");
-	    	//login.username(data.get_username(0));
-	    	//login.password(data.get_password(1));
+	    	ExcelCode data = new ExcelCode();
+	    	//login.username("rakshith1998@gmail.com");
+	    	//login.password("rakshith3788");
+	    	Thread.sleep(4000);
+	    	login.username(data.get_username(0));
+	    	login.password(data.get_password(0));
 	    	login.loginbtn();
 	        logger.error("Details are given");
 	    	File filepic=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

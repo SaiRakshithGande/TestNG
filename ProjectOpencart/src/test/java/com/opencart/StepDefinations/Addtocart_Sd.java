@@ -29,11 +29,11 @@ public class Addtocart_Sd extends BasePage {
 		 logger.info("Opencart site launches");
 	    }
 
-	 @When("^the user opens the cart and search  product called (.+)$")
-	    public void the_user_opens_the_cart_and_search_page_called(String name) throws Throwable {
+	 @When("^the user opens the cart and search  product called \"([^\"]*)\"$")
+	    public void the_user_opens_the_cart_and_search_product_called_something(String name) throws Throwable {
 	    	addcart= new Opencart_AddTocartpage(driver);
 	    	addcart.searchboxes();
-	    	addcart. opencart_searching("IMAC");
+	    	addcart. opencart_searching(name);
 	    	logger.debug("Product searched ");
 	    }
 

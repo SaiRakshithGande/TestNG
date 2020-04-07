@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/resources/feature/Opencart.feature",
 		plugin = {"pretty", "html:reports/cucumber-html-report"},
-		tags = {" @tc03_AddToCart"},
+		tags = {"@tc03_AddToCart"},
 		glue = {"com.opencart.StepDefinations"},
 		monochrome = true
 		//dryRun=false

@@ -29,12 +29,13 @@ public class Opencart_LoginPage extends BasePage{
 		 login.click();
 	}
 
-	public void username(String username) {
+	public void username(String username) throws InterruptedException {
+		Thread.sleep(4000);
 		usernameweb.sendKeys(username);
 	}
 
-	public void password(String password) {
-
+	public void password(String password) throws InterruptedException {
+          Thread.sleep(4000);
 		passwordweb.sendKeys(password);
 	}
 
