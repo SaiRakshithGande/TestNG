@@ -50,28 +50,28 @@ formatter.match({
   "location": "Login_Sd.a_user_launch_the_browser()"
 });
 formatter.result({
-  "duration": 10264030342,
+  "duration": 8335745283,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_Sd.the_user_opens_opencart_login_page()"
 });
 formatter.result({
-  "duration": 1904290663,
+  "duration": 1919369915,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_Sd.the_user_login_using_username_and_password()"
 });
 formatter.result({
-  "duration": 18366915211,
+  "duration": 16748508063,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_Sd.the_user_close_the_login_page()"
 });
 formatter.result({
-  "duration": 158909766,
+  "duration": 174989644,
   "status": "passed"
 });
 formatter.scenario({
@@ -112,7 +112,7 @@ formatter.match({
   "location": "Search_Sd.the_user_launch_the_browser()"
 });
 formatter.result({
-  "duration": 6136530925,
+  "duration": 6128353189,
   "status": "passed"
 });
 formatter.match({
@@ -125,21 +125,21 @@ formatter.match({
   "location": "Search_Sd.the_user_opens_the_open_cart_search_page(String)"
 });
 formatter.result({
-  "duration": 258774827,
+  "duration": 322991616,
   "status": "passed"
 });
 formatter.match({
   "location": "Search_Sd.the_user_search_the_product()"
 });
 formatter.result({
-  "duration": 5995420205,
+  "duration": 5230629243,
   "status": "passed"
 });
 formatter.match({
   "location": "Search_Sd.the_user_close_the_browesr()"
 });
 formatter.result({
-  "duration": 2364139255,
+  "duration": 134345980,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -254,7 +254,7 @@ formatter.match({
   "location": "Addtocart_Sd.the_user_launches_the_browser_in_chrome()"
 });
 formatter.result({
-  "duration": 6016550646,
+  "duration": 6339653857,
   "status": "passed"
 });
 formatter.match({
@@ -267,28 +267,28 @@ formatter.match({
   "location": "Addtocart_Sd.the_user_opens_the_cart_and_search_product_called_something(String)"
 });
 formatter.result({
-  "duration": 341374932,
+  "duration": 267275662,
   "status": "passed"
 });
 formatter.match({
   "location": "Addtocart_Sd.the_user_searches_the_product_and_choose()"
 });
 formatter.result({
-  "duration": 4844711048,
+  "duration": 1783002528,
   "status": "passed"
 });
 formatter.match({
   "location": "Addtocart_Sd.the_user_add_the_product_into_cart()"
 });
 formatter.result({
-  "duration": 3549698532,
+  "duration": 3483314156,
   "status": "passed"
 });
 formatter.match({
   "location": "Addtocart_Sd.the_user_closees_the_browser_and_quit()"
 });
 formatter.result({
-  "duration": 330932869,
+  "duration": 218011049,
   "status": "passed"
 });
 formatter.scenario({
@@ -329,28 +329,28 @@ formatter.match({
   "location": "Compare_sd.the_user_launched_the_browser_in_chrome()"
 });
 formatter.result({
-  "duration": 9550524094,
+  "duration": 7388635210,
   "status": "passed"
 });
 formatter.match({
   "location": "Compare_sd.the_user_compared_the_two_products()"
 });
 formatter.result({
-  "duration": 6290411783,
+  "duration": 3304932373,
   "status": "passed"
 });
 formatter.match({
   "location": "Compare_sd.the_user_will_see_product_comparison()"
 });
 formatter.result({
-  "duration": 6512673051,
+  "duration": 4977747691,
   "status": "passed"
 });
 formatter.match({
   "location": "Compare_sd.the_user_closed_the_browser_after_comparsion()"
 });
 formatter.result({
-  "duration": 2324091913,
+  "duration": 153079711,
   "status": "passed"
 });
 formatter.scenario({
@@ -396,35 +396,35 @@ formatter.match({
   "location": "Brands_Sd.the_user_launching_the_chrome_browser()"
 });
 formatter.result({
-  "duration": 6270659879,
+  "duration": 6845326646,
   "status": "passed"
 });
 formatter.match({
   "location": "Brands_Sd.the_user_clicks_on_brands()"
 });
 formatter.result({
-  "duration": 4721997096,
+  "duration": 2674445089,
   "status": "passed"
 });
 formatter.match({
   "location": "Brands_Sd.the_user_selects_the_brand()"
 });
 formatter.result({
-  "duration": 6071437985,
+  "duration": 2171943166,
   "status": "passed"
 });
 formatter.match({
   "location": "Brands_Sd.the_user_add_the_product_to_wishlist()"
 });
 formatter.result({
-  "duration": 3518270532,
+  "duration": 3511373288,
   "status": "passed"
 });
 formatter.match({
   "location": "Brands_Sd.the_user_quits_the_chrome()"
 });
 formatter.result({
-  "duration": 2055979740,
+  "duration": 2071745172,
   "status": "passed"
 });
 formatter.scenario({
@@ -465,28 +465,28 @@ formatter.match({
   "location": "Specials_Sd.the_user_to_open_browser_chrome()"
 });
 formatter.result({
-  "duration": 7978289901,
+  "duration": 7636241973,
   "status": "passed"
 });
 formatter.match({
   "location": "Specials_Sd.the_user_clicks_on_the_specials()"
 });
 formatter.result({
-  "duration": 5622994134,
+  "duration": 2015156448,
   "status": "passed"
 });
 formatter.match({
   "location": "Specials_Sd.the_user_will_see_the_specials_and_add_to_the_cart()"
 });
 formatter.result({
-  "duration": 11028019017,
+  "duration": 7483933222,
   "status": "passed"
 });
 formatter.match({
   "location": "Specials_Sd.the_user_close_the_site_and_browser()"
 });
 formatter.result({
-  "duration": 2325730721,
+  "duration": 2121205192,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -607,14 +607,14 @@ formatter.match({
   "location": "ContactUs_Sd.the_customer_open_the_cart_in_the_browser()"
 });
 formatter.result({
-  "duration": 6243131437,
+  "duration": 6082729081,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Sd.the_user_click_on_contact_us_in_website()"
 });
 formatter.result({
-  "duration": 1856069398,
+  "duration": 1658415462,
   "status": "passed"
 });
 formatter.match({
@@ -635,21 +635,21 @@ formatter.match({
   "location": "ContactUs_Sd.the_user_should_fill_the_form_of_which_is_displayed(String,String,String)"
 });
 formatter.result({
-  "duration": 4010794702,
+  "duration": 3931952804,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Sd.the_user_click_the_submit_button()"
 });
 formatter.result({
-  "duration": 2732714210,
+  "duration": 2761056468,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Sd.user_will_close_the_website_and_browser()"
 });
 formatter.result({
-  "duration": 2202134145,
+  "duration": 219284897,
   "status": "passed"
 });
 });

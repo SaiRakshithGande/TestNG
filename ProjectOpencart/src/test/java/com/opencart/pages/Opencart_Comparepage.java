@@ -26,7 +26,7 @@ public class Opencart_Comparepage {
 	public void getProductA2() throws InterruptedException {
 
 		productB.click();// To click on product B
-
+        Thread.sleep(3000);
 	}
 
 	public void getComparisons() throws InterruptedException {

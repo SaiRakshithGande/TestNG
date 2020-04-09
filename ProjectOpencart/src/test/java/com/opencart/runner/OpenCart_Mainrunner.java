@@ -11,7 +11,6 @@ import cucumber.api.junit.Cucumber;
 		"html:reports/cucumber-html-report", "json:reports/cucumber-html-report/jsonreport",
 		"com.cucumber.listener.ExtentCucumberFormatter:reports/Extentreports/Extentreport.html" }, glue = {
 				"com.opencart.StepDefinations" }, monochrome = true // readable
-		
 
 )
 public class OpenCart_Mainrunner {
