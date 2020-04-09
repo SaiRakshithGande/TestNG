@@ -9,31 +9,31 @@ import com.opencart.basepage.BasePage;
 
 public class Opencart_SearchPage extends BasePage {
 
-	@FindBy(xpath="//div[@id='search']/input")
+	@FindBy(xpath = "//div[@id='search']/input")
 	WebElement searchpage;
-	@FindBy(xpath="//*[@id=\"search\"]/span/button")
+	@FindBy(xpath = "//*[@id=\"search\"]/span/button")
 	WebElement searchbtn;
+
 	public Opencart_SearchPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-   
-	
-	public void searchbox() {
-    	searchpage.click();
-    }
-	
-	public void opencart_search(String names) throws InterruptedException {
-		// searchpage.click();
-		 
-		 searchpage.sendKeys(names);
-		 Thread.sleep(3000);
+
+	public void getSearchbox() {
+		searchpage.click();//To click on search
 	}
 
-	public void button() throws InterruptedException {
-		searchbtn.click();
-		 Thread.sleep(3000);
+	public void giveKeys(String names) throws InterruptedException {
+	
+
+		searchpage.sendKeys(names);//To enter in search
+		
+		//Thread.sleep(3000);
 	}
-	
-	
-	
+
+	public void clickButton() throws InterruptedException {
+		searchbtn.click();//To click on search button
+		Thread.sleep(3000);
+
+	}
+
 }

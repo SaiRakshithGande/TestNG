@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "line": 6,
+        "line": 4,
         "name": "Login with Valid details",
         "description": "",
         "id": "opencart-website;login-with-valid-details",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 8218340013,
+              "duration": 10264030342,
               "status": "passed"
             },
-            "line": 7,
+            "line": 5,
             "name": "a user launch the browser",
             "match": {
               "location": "Login_Sd.a_user_launch_the_browser()"
@@ -24,10 +24,10 @@
           },
           {
             "result": {
-              "duration": 1854839570,
+              "duration": 1904290663,
               "status": "passed"
             },
-            "line": 8,
+            "line": 6,
             "name": "the user opens opencart login page",
             "match": {
               "location": "Login_Sd.the_user_opens_opencart_login_page()"
@@ -36,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 16347205014,
+              "duration": 18366915211,
               "status": "passed"
             },
-            "line": 9,
+            "line": 7,
             "name": "the user login using username and password",
             "match": {
               "location": "Login_Sd.the_user_login_using_username_and_password()"
@@ -48,10 +48,10 @@
           },
           {
             "result": {
-              "duration": 2091754663,
+              "duration": 158909766,
               "status": "passed"
             },
-            "line": 10,
+            "line": 8,
             "name": "the user close the login page",
             "match": {
               "location": "Login_Sd.the_user_close_the_login_page()"
@@ -61,13 +61,13 @@
         ],
         "tags": [
           {
-            "line": 5,
+            "line": 3,
             "name": "@tc01_login"
           }
         ]
       },
       {
-        "line": 14,
+        "line": 11,
         "name": "Search the Product",
         "description": "",
         "id": "opencart-website;search-the-product",
@@ -76,10 +76,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6223109917,
+              "duration": 6136530925,
               "status": "passed"
             },
-            "line": 15,
+            "line": 12,
             "name": "the user launch the browser",
             "match": {
               "location": "Search_Sd.the_user_launch_the_browser()"
@@ -88,10 +88,10 @@
           },
           {
             "result": {
-              "duration": 3214377614,
+              "duration": 258774827,
               "status": "passed"
             },
-            "line": 16,
+            "line": 13,
             "name": "the user opens the open cart search \u003cname\u003e page",
             "match": {
               "arguments": [
@@ -106,10 +106,10 @@
           },
           {
             "result": {
-              "duration": 5129441381,
+              "duration": 5995420205,
               "status": "passed"
             },
-            "line": 17,
+            "line": 14,
             "name": "the user search the product",
             "match": {
               "location": "Search_Sd.the_user_search_the_product()"
@@ -118,10 +118,10 @@
           },
           {
             "result": {
-              "duration": 2325475040,
+              "duration": 2364139255,
               "status": "passed"
             },
-            "line": 18,
+            "line": 15,
             "name": "the user close the browesr",
             "match": {
               "location": "Search_Sd.the_user_close_the_browesr()"
@@ -131,13 +131,13 @@
         ],
         "tags": [
           {
-            "line": 13,
+            "line": 10,
             "name": "@tc02_Search"
           }
         ]
       },
       {
-        "line": 29,
+        "line": 26,
         "name": "Add to Cart",
         "description": "",
         "id": "opencart-website;add-to-cart;;2",
@@ -146,10 +146,10 @@
         "steps": [
           {
             "result": {
-              "duration": 7947123812,
+              "duration": 6016550646,
               "status": "passed"
             },
-            "line": 22,
+            "line": 19,
             "name": "the user launches the browser in chrome",
             "match": {
               "location": "Addtocart_Sd.the_user_launches_the_browser_in_chrome()"
@@ -158,10 +158,10 @@
           },
           {
             "result": {
-              "duration": 251799542,
+              "duration": 341374932,
               "status": "passed"
             },
-            "line": 23,
+            "line": 20,
             "name": "the user opens the cart and search  product called \"IMAC\"",
             "match": {
               "arguments": [
@@ -179,10 +179,10 @@
           },
           {
             "result": {
-              "duration": 4819907074,
+              "duration": 4844711048,
               "status": "passed"
             },
-            "line": 24,
+            "line": 21,
             "name": "the user searches the product and choose",
             "match": {
               "location": "Addtocart_Sd.the_user_searches_the_product_and_choose()"
@@ -191,10 +191,10 @@
           },
           {
             "result": {
-              "duration": 3417714946,
+              "duration": 3549698532,
               "status": "passed"
             },
-            "line": 25,
+            "line": 22,
             "name": "the user add the product into cart",
             "match": {
               "location": "Addtocart_Sd.the_user_add_the_product_into_cart()"
@@ -203,10 +203,10 @@
           },
           {
             "result": {
-              "duration": 211429214,
+              "duration": 330932869,
               "status": "passed"
             },
-            "line": 26,
+            "line": 23,
             "name": "the user closees the browser and quit",
             "match": {
               "location": "Addtocart_Sd.the_user_closees_the_browser_and_quit()"
@@ -220,13 +220,13 @@
             "name": "@Testcase_Feature"
           },
           {
-            "line": 20,
+            "line": 17,
             "name": "@tc03_AddToCart"
           }
         ]
       },
       {
-        "line": 32,
+        "line": 28,
         "name": "Compare the products",
         "description": "",
         "id": "opencart-website;compare-the-products",
@@ -235,10 +235,10 @@
         "steps": [
           {
             "result": {
-              "duration": 7037273318,
+              "duration": 9550524094,
               "status": "passed"
             },
-            "line": 33,
+            "line": 29,
             "name": "the user launched the browser in chrome",
             "match": {
               "location": "Compare_sd.the_user_launched_the_browser_in_chrome()"
@@ -247,10 +247,10 @@
           },
           {
             "result": {
-              "duration": 6253308636,
+              "duration": 6290411783,
               "status": "passed"
             },
-            "line": 34,
+            "line": 30,
             "name": "the user compared the two products",
             "match": {
               "location": "Compare_sd.the_user_compared_the_two_products()"
@@ -259,10 +259,10 @@
           },
           {
             "result": {
-              "duration": 5967263819,
+              "duration": 6512673051,
               "status": "passed"
             },
-            "line": 35,
+            "line": 31,
             "name": "the user will see product comparison",
             "match": {
               "location": "Compare_sd.the_user_will_see_product_comparison()"
@@ -271,10 +271,10 @@
           },
           {
             "result": {
-              "duration": 192284734,
+              "duration": 2324091913,
               "status": "passed"
             },
-            "line": 36,
+            "line": 32,
             "name": "the user closed the browser after comparsion",
             "match": {
               "location": "Compare_sd.the_user_closed_the_browser_after_comparsion()"
@@ -284,13 +284,13 @@
         ],
         "tags": [
           {
-            "line": 31,
+            "line": 27,
             "name": "@tc04_Comparison"
           }
         ]
       },
       {
-        "line": 38,
+        "line": 34,
         "name": "Select the brand and add to wishlist",
         "description": "",
         "id": "opencart-website;select-the-brand-and-add-to-wishlist",
@@ -299,10 +299,10 @@
         "steps": [
           {
             "result": {
-              "duration": 8829131597,
+              "duration": 6270659879,
               "status": "passed"
             },
-            "line": 39,
+            "line": 35,
             "name": "the user launching the chrome browser",
             "match": {
               "location": "Brands_Sd.the_user_launching_the_chrome_browser()"
@@ -311,10 +311,10 @@
           },
           {
             "result": {
-              "duration": 4734552514,
+              "duration": 4721997096,
               "status": "passed"
             },
-            "line": 40,
+            "line": 36,
             "name": "the user clicks on brands",
             "match": {
               "location": "Brands_Sd.the_user_clicks_on_brands()"
@@ -323,10 +323,10 @@
           },
           {
             "result": {
-              "duration": 7084174707,
+              "duration": 6071437985,
               "status": "passed"
             },
-            "line": 41,
+            "line": 37,
             "name": "the user selects the brand",
             "match": {
               "location": "Brands_Sd.the_user_selects_the_brand()"
@@ -335,10 +335,10 @@
           },
           {
             "result": {
-              "duration": 3593498168,
+              "duration": 3518270532,
               "status": "passed"
             },
-            "line": 42,
+            "line": 38,
             "name": "the user add the product to wishlist",
             "match": {
               "location": "Brands_Sd.the_user_add_the_product_to_wishlist()"
@@ -347,10 +347,10 @@
           },
           {
             "result": {
-              "duration": 2059815723,
+              "duration": 2055979740,
               "status": "passed"
             },
-            "line": 43,
+            "line": 39,
             "name": "the user quits the chrome",
             "match": {
               "location": "Brands_Sd.the_user_quits_the_chrome()"
@@ -360,13 +360,13 @@
         ],
         "tags": [
           {
-            "line": 37,
+            "line": 33,
             "name": "@tc05_Brands"
           }
         ]
       },
       {
-        "line": 45,
+        "line": 41,
         "name": "Special offers in opencart website",
         "description": "",
         "id": "opencart-website;special-offers-in-opencart-website",
@@ -375,10 +375,10 @@
         "steps": [
           {
             "result": {
-              "duration": 10077480666,
+              "duration": 7978289901,
               "status": "passed"
             },
-            "line": 46,
+            "line": 42,
             "name": "the user to open browser chrome",
             "match": {
               "location": "Specials_Sd.the_user_to_open_browser_chrome()"
@@ -387,10 +387,10 @@
           },
           {
             "result": {
-              "duration": 4809296612,
+              "duration": 5622994134,
               "status": "passed"
             },
-            "line": 47,
+            "line": 43,
             "name": "the user clicks on the specials",
             "match": {
               "location": "Specials_Sd.the_user_clicks_on_the_specials()"
@@ -399,10 +399,10 @@
           },
           {
             "result": {
-              "duration": 10297930373,
+              "duration": 11028019017,
               "status": "passed"
             },
-            "line": 48,
+            "line": 44,
             "name": "the user will see the specials and add to the cart",
             "match": {
               "location": "Specials_Sd.the_user_will_see_the_specials_and_add_to_the_cart()"
@@ -411,10 +411,10 @@
           },
           {
             "result": {
-              "duration": 2326007903,
+              "duration": 2325730721,
               "status": "passed"
             },
-            "line": 49,
+            "line": 45,
             "name": "the user close the site and browser",
             "match": {
               "location": "Specials_Sd.the_user_close_the_site_and_browser()"
@@ -424,8 +424,107 @@
         ],
         "tags": [
           {
-            "line": 44,
+            "line": 40,
             "name": "@tc06_Special"
+          }
+        ]
+      },
+      {
+        "line": 55,
+        "name": "Contact to the opencart for quries",
+        "description": "",
+        "id": "opencart-website;contact-to-the-opencart-for-quries;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6243131437,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the customer open the cart in the browser",
+            "match": {
+              "location": "ContactUs_Sd.the_customer_open_the_cart_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1856069398,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user click on contact us in website",
+            "match": {
+              "location": "ContactUs_Sd.the_user_click_on_contact_us_in_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4010794702,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the user should fill the form of \"rakshith\" \"g.sairakshith1998@gmail.com\" \"To know about the prevoius order\" which is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rakshith",
+                  "offset": 34
+                },
+                {
+                  "val": "g.sairakshith1998@gmail.com",
+                  "offset": 45
+                },
+                {
+                  "val": "To know about the prevoius order",
+                  "offset": 75
+                }
+              ],
+              "location": "ContactUs_Sd.the_user_should_fill_the_form_of_which_is_displayed(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2732714210,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user click the submit button",
+            "match": {
+              "location": "ContactUs_Sd.the_user_click_the_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2202134145,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user will close the website and browser",
+            "match": {
+              "location": "ContactUs_Sd.user_will_close_the_website_and_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Testcase_Feature"
+          },
+          {
+            "line": 46,
+            "name": "@tc07_Contactus"
           }
         ]
       }
